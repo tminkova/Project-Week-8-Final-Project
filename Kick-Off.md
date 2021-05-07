@@ -39,8 +39,7 @@ In this project, you will pick a topic of your choosing and perform an end-to-en
 
 ## Deliverables
 * A well-commented notebook with your analysis (Jupyter or Zeppelin).
-* A 5 minute presentation in the auditorium (+2 minutes of questions)
-* A 5 minute presentation for the jury (+5 minutes of questions)
+* A 5 minute presentation (+2 minutes of questions)
 * Repository with your workflow + documentation + code. Even if you are working alone, you need to keep good practices!
 * The dataset where you have kept your data (if possible), as well as a description of it.
 
@@ -79,7 +78,7 @@ In this project, you will pick a topic of your choosing and perform an end-to-en
 <a name="presentation"></a>
 
 ## Presentation
-* 5 minute presentation for the jury (+5 minutes of questions)
+* 5 minute presentation for the class (+5 minutes of questions)
 * 5 minute presentation in Hackshow (+2 minutes of questions)
 
 <a name="tips-&-tricks"></a>
