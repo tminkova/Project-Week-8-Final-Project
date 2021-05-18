@@ -19,8 +19,10 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show.
-I used a dataset based on the sale and renting prices of properties in Riga. My main goal is to create a machine mearning model which will predict real estate prices, both for sale and for rent. Real Estate is a big part of my life, not only as a topic of intrests but also professional, I'm working in property management services for more than 4 years now and I have experience as an independant real estate broker. I embraced the challenge to combine my privious knowledge with the new-learn skills and in this way to enrich my personal passion and professional experience 
+
+I used a dataset based on rental properties and properties for sale in Riga. 
+Real Estate is a big part of my life, not only as a topic of interests but also professionally, I work in property management services for more than 4 years now and I have worked as an independent real estate broker. I embraced the challenge to combine my previous knowledge and experience with the new-learned skills and in this way to enrich my personal passion and enhance my professional capabilities.
+My main goal was to create a machine learning model which will predict real estate prices, both for sale and for rent.
 
 ## Hypotheses / Questions
 * What data/business/research/personal question you would like to answer?
