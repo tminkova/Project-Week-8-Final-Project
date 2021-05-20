@@ -71,5 +71,5 @@ Include links to your repository, slides and trello/kanban board. Feel free to i
 
 
 [Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Slides](https://www.canva.com/design/DAEe76bdL4k/g6HyPCYmkWpWdCDoOJq-wg/edit?layoutQuery=real+estate+presentation)  
+[Trello](https://trello.com/b/WGTw5Rhg/final-project)  
