@@ -70,6 +70,6 @@ What does your repository look like? Explain your folder and file structure.
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project.
 
 
-[Repository](https://github.com/)  
+[Repository](https://github.com/tminkova/Project-Week-8-Final-Project)  
 [Slides](https://www.canva.com/design/DAEe76bdL4k/g6HyPCYmkWpWdCDoOJq-wg/edit?layoutQuery=real+estate+presentation)  
 [Trello](https://trello.com/b/WGTw5Rhg/final-project)  
