@@ -25,21 +25,16 @@ Real Estate is a big part of my life, not only as a topic of interests but also 
 My main goal was to create a machine learning model which will predict real estate prices, both for sale and for rent.
 
 ## Hypotheses / Questions
-* What data/business/research/personal question you would like to answer?
+
 * What would be better: to rent out or to sale, in Riga based on this particular dataset?
-
-* What is the context for the question and the possible scientific or business application?
 * It can help property owners to decide which is better for their investment if they doubt but also to show them some prediction of the prices on the market.
-
-* What are the hypotheses you would like to test in order to answer your question?  
 * Splitting the data in training set (80%) to train the model and test its aquracy on unseen data, the testing set (the remain 20%)
 
 ## Dataset
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* The data is downloaded from Keggle website on my computer, using Pandas to read it in Jupyter Notebook so I can work with it (pd.read_csv('../data/riga_re.csv'))
 
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
+* The data is downloaded from Keggle website on my computer, using Pandas to read it in Jupyter Notebook so I can work with it (pd.read_csv('../data/riga_re.csv'))
 * The dataset contains 4689 real estate objects in Riga and total 13 columns (data types: float64(6), object(7))
+  
   Columns description:
   - op_type (object) - offer type ('For rent', 'For sale', 'Buying', 'Renting', 'Change', 'Other').
   - district (object) - district, where real estate object located.
