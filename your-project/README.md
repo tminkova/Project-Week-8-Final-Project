@@ -39,25 +39,21 @@ My main goal was to create a machine learning model which will predict real esta
 * The data is downloaded from Keggle website on my computer, using Pandas to read it in Jupyter Notebook so I can work with it (pd.read_csv('../data/riga_re.csv'))
 
 * For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* The dataset contains 4689 real estate objects in Riga.
-RangeIndex: 4689 entries, 0 to 4688
-Data columns (total 13 columns):
- #   Column        Non-Null Count  Dtype  
----  ------        --------------  -----  
- 0   op_type       4689 non-null   object 
- 1   district      4674 non-null   object 
- 2   street        4237 non-null   object 
- 3   rooms         4500 non-null   object 
- 4   area          4325 non-null   float64
- 5   floor         4356 non-null   float64
- 6   total_floors  4345 non-null   float64
- 7   house_seria   4247 non-null   object 
- 8   house_type    4239 non-null   object 
- 9   condition     4283 non-null   object 
- 10  price         4219 non-null   float64
- 11  lat           4482 non-null   float64
- 12  lon           4482 non-null   float64
-dtypes: float64(6), object(7)
+* The dataset contains 4689 real estate objects in Riga and total 13 columns (data types: float64(6), object(7))
+  Columns description:
+  - op_type (object) - offer type ('For rent', 'For sale', 'Buying', 'Renting', 'Change', 'Other').
+  - district (object) - district, where real estate object located.
+  - street (object) - address of real estate object.
+  - rooms (object) - number of rooms.
+  - area (float64) - living area of real estate object.
+  - floor (float64) - floor of rel estate object.
+  - total_floors (float64) - total amount of floors in building.
+  - house_seria (object) - house design ('LT proj.', '602.', 'P. kara', 'Jaun.', 'Specpr.', 'Hrušč.', '119.', 'M. ģim.', 'Renov.', '103.', nan, 'Priv. m.', '467.', 'Staļina',                              '104.', 'Čehu pr.').
+  - house_type (object) - type of building ('Brick-Panel', 'Panel', 'Wood', 'Masonry', 'Brick', 'Panel-Brick').
+  - condition (object) - stuffing premises ('All amenities', 'Partial amenities', 'Without amenities').
+  - price (float64) - price in EUR.
+  - lat / lon (float64) - latitude and longitude of real estate object.
+
 
 
 ## Cleaning
