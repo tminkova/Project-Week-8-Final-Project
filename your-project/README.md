@@ -20,21 +20,45 @@
 
 ## Project Description
 
-I used a dataset based on rental properties and properties for sale in Riga. 
+I used a dataset based on rental properties as well as properties for sale in Riga. 
 Real Estate is a big part of my life, not only as a topic of interests but also professionally, I work in property management services for more than 4 years now and I have worked as an independent real estate broker. I embraced the challenge to combine my previous knowledge and experience with the new-learned skills and in this way to enrich my personal passion and enhance my professional capabilities.
 My main goal was to create a machine learning model which will predict real estate prices, both for sale and for rent.
 
 ## Hypotheses / Questions
 * What data/business/research/personal question you would like to answer?
+* What would be better: to rent out or to sale, in Riga based on this particular dataset?
+
 * What is the context for the question and the possible scientific or business application?
+* It can help property owners to decide which is better for their investment if they doubt but also to show them some prediction of the prices on the market.
+
 * What are the hypotheses you would like to test in order to answer your question?  
-Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
+* Splitting the data in training set (80%) to train the model and test its aquracy on unseen data, the testing set (the remain 20%)
 
 ## Dataset
 * Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API or a web scraper? PRovide the relevant scripts in your repo.
+* The data is downloaded from Keggle website on my computer, using Pandas to read it in Jupyter Notebook so I can work with it (pd.read_csv('../data/riga_re.csv'))
+
 * For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it better?
+* The dataset contains 4689 real estate objects in Riga.
+RangeIndex: 4689 entries, 0 to 4688
+Data columns (total 13 columns):
+ #   Column        Non-Null Count  Dtype  
+---  ------        --------------  -----  
+ 0   op_type       4689 non-null   object 
+ 1   district      4674 non-null   object 
+ 2   street        4237 non-null   object 
+ 3   rooms         4500 non-null   object 
+ 4   area          4325 non-null   float64
+ 5   floor         4356 non-null   float64
+ 6   total_floors  4345 non-null   float64
+ 7   house_seria   4247 non-null   object 
+ 8   house_type    4239 non-null   object 
+ 9   condition     4283 non-null   object 
+ 10  price         4219 non-null   float64
+ 11  lat           4482 non-null   float64
+ 12  lon           4482 non-null   float64
+dtypes: float64(6), object(7)
+
 
 ## Cleaning
 Describe your full process of data wrangling and cleaning. Document why you chose to fill missing values, extract outliers, or create the variables you did as well as your reasoning behind the process.
