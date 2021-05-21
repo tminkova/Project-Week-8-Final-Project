@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
+# Real Estate Market in city of Riga
 *Tsvetelina Minkova*
 
 *Data Analythics, Remote March 2021*
@@ -57,26 +57,34 @@ My main goal was to create a machine learning model which will predict real esta
 - At the end, I splitted the dataset in 2 different ones - for sale and for rent.
 
 ## Analysis
-* Overview the general steps you went through to analyze your data in order to test your hypothesis.
-* Document each step of your data exploration and analysis.
-* Include charts to demonstrate the effect of your work.
-* If you used Machine Learning in your final project, describe your feature selection process.
+* I used the function 'value_counts' for all of the columns which gave me a good picture what kind of data I'm working with.
+* Checked the distribution and took care of the outliers.
+* Used Tableau to visualize the GPS cordinates of each listing on the city map.
+* Checked the correlation of the numeric values towards the price.
+* Which helped me to select the best features for the model.
 
 ## Model Training and Evaluation
-*Include this section only if you chose to include ML in your project.*
-* Describe how you trained your model, the results you obtained, and how you evaluated those results.
+* First, I splitted the data in training set 80% to 20% testing set.
+* Used features highly correlated to the price.
+* Used different models to get the best score possible.
+* Used a function for evaluate the results.
 
 ## Conclusion
-* Summarize your results. What do they mean?
-* What can you say about your hypotheses?
-* Interpret your findings in terms of the questions you try to answer.
+* The best results were shown in the very beginning with the default parameters of Lenear Model, yet, I tried to improve them with testing different options (model, parameters, features)
+* The question I wanted to answer is way more sofisticated then the results but it's a start in the right direction.
+* For the purposes of this project and the time given to implement the new-learn skills my findings are quite satisfying.
 
 ## Future Work
-Address any questions you were unable to answer, or any next steps or future extensions to your project.
+It is a great beginning of a bigger project which I would like to work on. It inspired me to collect similar (and even better) data for my region and see how it could be applied in reallity.
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps?
-How did you test the accuracy of your analysis and/or machine learning algorithm?
+1. Trello board with the plan
+2. Data explaring and cleaning
+3. Data preprocessing
+4. Splitting and scaling the data
+5. Creating and testing different models
+6. Changing features and parameters and testing again
+7. Creating presentation based on my work
 
 ## Organization
 I used Trello board to organize the whole proccess of work.
